@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DBVis</string>
+    <string name="menu_settings">Configurações</string>
+
+    <!-- labels and buttons -->
+    <string name="txt_server_hint">192.168.1.15:9000</string>
+    <string name="lbl_server">Servidor</string>
+    <string name="lbl_password">Senha</string>
+    <string name="lbl_device_name">Apelido/Identificação</string>
+    <string name="btn_connect">Conectar</string>
+    <string name="lbl_zoom">Zoom</string>
+    <string name="lbl_sensor_navigation">Navegação por sensor</string>
+    <string name="control_panel">Painel de Controle</string>
+    <string name="btn_zoom_plus_hint">Aumentar zoom</string>
+    <string name="btn_zoom_minus_hint">Diminuir zoom</string>
+    <string name="lbl_zoom_0">Distante</string>
+    <string name="lbl_zoom_1">Normal</string>
+    <string name="lbl_zoom_2">Próximo</string>
+    <string name="btn_close">Fechar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_save">Salvar</string>
+    <string name="btn_delete">Apagar</string>
+    <string name="btn_generate">Gerar</string>
+    <string name="btn_share">Compartilhar</string>
+    <string name="lbl_note">Anotação</string>
+    <string name="lbl_show_other_users_texts">Exibir anotações de outros usuários</string>
+    <string name="lbl_chart_type">Tipo do Gráfico</string>
+
+    <!-- general -->
+    <string name="toogleOn">LIGADO</string>
+    <string name="toogleOff">DESLIGADO</string>
+
+    <!-- errors -->
+    <string name="error_cannot_connect">Não foi possível conectar no servidor</string>
+    <string name="error_orientation_sensor_not_found">Sensor de orientação não encontrado</string>
+    <string name="error_invalid_password">Senha inválida</string>
+    <string name="error_cannot_add_text_note">Não foi possível adicionar a anotação</string>
+    <string name="error_cannot_delete_text_note">Não foi possível apagar a anotação</string>
+    <string name="error_without_nodes_on_region">Não existem nós na área visualizada</string>
+
+    <!-- messages -->
+    <string name="welcome_connect">Bem-vindo, por favor conecte à um servidor DBVis</string>
+    <string name="msg_disconnecting">Desconectando</string>
+    <string name="msg_disconnected">Desconectado</string>
+    <string name="msg_connected">Conectado</string>
+    <string name="msg_coordinates_saved">Coordenadas salvas</string>
+
+    <!-- titles -->
+    <string name="title_activity_main">DBVis</string>
+    <string name="title_activity_explorer">DBVis</string>
+    <string name="menu_calibrate">Calibrar</string>
+    <string name="title_preferences">Preferências</string>
+    <string name="title_activity_chart">Gráficos</string>
+    <string name="title_activity_new_chart">Novo gráfico</string>
+    <string name="title_activity_my_charts">Meus gráficos</string>
+    <string name="title_activity_shared_charts">Gráficos compartilhados</string>
+
+    <!-- format -->
+    <string name="format_date">dd/MM/yyyy</string>
+    <string name="format_time">HH:mm</string>
+
+    <!-- charts -->
+    <string name="chart_line">Linha</string>
+    <string name="chart_bar">Barra</string>
+    <string name="chart_scatter">Dispersão</string>
+    <string name="chart_values">Valores</string>
+    <string name="chart_x">Eixo X</string>
+    <string name="chart_y">Eixo Y</string>
+    <string name="chart_serie_1">Série 1</string>
+    <string name="chart_serie_2">Série 2 (Opcional)</string>
+    <string name="chart_serie_3">Série 3 (Opctional)</string>
+    <string name="chart_tab1">Novo Gráfico</string>
+    <string name="chart_tab2">Salvos</string>
+    <string name="chart_tab3">Compartilhados</string>
+    <string name="chart_unselected">Nenhum gráfico selecionado</string>
+    
+    
+
+</resources>

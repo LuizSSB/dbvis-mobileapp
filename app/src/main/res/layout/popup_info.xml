@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="wrap_content"
+   android:id="@+id/popup_info"
+   android:layout_height="wrap_content"
+   android:background="@color/WHITE"
+   android:orientation="vertical" >
+ 
+<TextView
+    android:id="@+id/txtPopupNodeTitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Popup"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/BLACK"
+    android:textStyle="bold|italic" />
+ 
+<TextView
+    android:id="@+id/txtPopupNodeInfo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="5dp"
+    android:text="aaa"
+    android:textColor="@color/BLACK" />
+ 
+<Button
+   android:id="@+id/btnPopupInfoClose"
+   android:layout_marginTop="10dp"
+   android:layout_gravity="center_horizontal"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="@string/btn_close" />
+ 
+</LinearLayout>

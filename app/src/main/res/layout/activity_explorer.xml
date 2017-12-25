@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExplorerActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" >
+
+        <br.unesp.amoraes.dbvis.components.ZoomImageView
+            android:id="@+id/graphZoomImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="18" >
+
+       <ToggleButton 
+        android:id="@+id/toggleNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_toggle_navegation" 
+        android:layout_margin="5dp"
+        android:textOn=""
+        android:textOff=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_centerHorizontal="true"/>
+
+       <ToggleButton
+        android:id="@+id/toggleInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleNavigation"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/ic_toggle_information"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+ 
+       <ToggleButton
+        android:id="@+id/toggleSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleInformation"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/ic_toggle_selection"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+       
+       <ToggleButton
+        android:id="@+id/toggleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleSelection"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/ic_toggle_text"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+       
+	   <ToggleButton
+        android:id="@+id/toggleChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/ic_toggle_chart"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+        
+       <ToggleButton
+        android:id="@+id/togglePreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleChart"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/ic_toggle_preferences"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+       
+       
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>

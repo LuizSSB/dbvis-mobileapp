@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="br.unesp.amoraes.dbvis.MyChartsActivity" >
+
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+        
+        <LinearLayout
+            android:id="@+id/linearLayoutMyChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/textViewMyChart"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/chart_unselected"
+        android:layout_weight="1" />
+  
+    <RelativeLayout
+        android:id="@+id/gallery_relative_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal" 
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/left_arrow_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="75dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:src="@drawable/arrow_left_disabled" />
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="0dip"
+            android:layout_height="75dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@+id/right_arrow_imageview"
+            android:layout_toRightOf="@+id/left_arrow_imageview"
+            android:spacing="20dip" />
+
+        <ImageView
+            android:id="@+id/right_arrow_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="75dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/arrow_right_enabled" />
+        
+         
+    </RelativeLayout>
+	
+
+</LinearLayout>
